@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Community Environmental Awareness Survey Form</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <h1 id="title">Community Environmental Awareness Survey Form</h1>
+  <p id="description" type="description">Help Build A Nation That Helps Nature</p>
+  <form id="survey-form" method="post" action='https://survey-demo.freecodecamp.org'">
+      
+  <fieldset>
+    <label id="name-label" for="name"> Name
+    <input id="name" name="name" type="text" placeholder="   Firstname, MiddleInitial, Lastname" required /></label>
+    <label id="number-label" for="number"> Age <input id="number" type="number" name="age" placeholder="   Age(years)" min="15" max="120" required/></label>
+    <label id="email-label" for="email"> Email Address <input id="email" name="email" type="email" placeholder="   AbcD123@email.com" required /></label>
+    <label for="occupation"> Occupation
+      <select id="dropdown" name="occupation">
+        <option value="">(select one)</option>
+        <option value="1">Student</option>
+        <option value="2">Unemployed</option>
+        <option value="3">Self-Employed/Business Owner</option>
+        <option value="4">Employed</option>
+        <option value="5">Retired</option>
+      </select>
+    </label>
+    <hr>
+    <label for="awareness"> Your level of awareness about environmental issues in your local area.
+      <select id="dropdown" name="awareness">
+        <option value="">(select one)</option>
+        <option value="VAw">Very Aware: Fully aware and active in initiatives.</option>
+        <option value="SAw">Somewhat Aware: Some knowledge and occasional participation.</option>
+        <option value="NE">Neutral: Heard about issues but no detailed knowledge or participation.</option>
+        <option value="SUn">Somewhat Unaware: Limited knowledge and no participation.</option>
+        <option value="VUn">Very Unaware: Not aware of any issues.</option>
+      </select>
+    </label>
+    <p> In what ways do you participate in environmental preservation activities? Select all that apply:</p>
+    <label for="individual"><input name="participate" value="individual" id="individual" type="checkbox" class="inline" /> Individual: I take personal actions to help the environment (e.g., recycling, reducing energy consumption, etc.)</label>
+    <label for="group"><input name="participate" value="group" id="group" type="checkbox" class="inline" /> Group: My family or friends and I participate in environmental activities together (e.g., group clean-ups, tree planting, etc.)</label>
+    <label for="community"><input name="participate" value="community" id="community" type="checkbox" class="inline" /> Community: I am part of a community organization that focuses on preserving nature.</label>
+    <label for="online-advocacy"><input name="participate" value="online-advocacy" id="online-advocacy" type="checkbox" class="inline" /> Online Advocacy: I use social media or other online platforms to raise awareness about environmental issues.</label>
+    <label for="educational"><input name="participate" value="educational" id="educational" type="checkbox" class="inline" /> Educational: I educate others about the importance of environmental preservation (e.g., giving talks, teaching children, etc.)</label>
+    <label for="donations"><input name="participate" value="donations" id="donations" type="checkbox" class="inline" /> Donations: I contribute financially to environmental causes or organizations.</label>
+    <label for="none-of-the-above"><input name="participate" value="none-of-the-above" id="none-of-the-above" type="checkbox" class="inline" /> None of the above: I currently do not participate in any environmental preservation activities.</label>
+    <hr>
+    <p> Would you recommend others to participate/join a group in helping the environment?</p>
+    <label for="definitely"><input id="definitely" type="radio" name="recommend" value="definitely" class="inline" /> Definitely</label>
+    <label for="probably"><input id="probably" type="radio" name="recommend" value="probably" class="inline" /> Probably</label>
+    <label for="not-sure"><input id="not-sure" type="radio" name="recommend" value="not-sure" class="inline" /> Not Sure</label>
+    <label for="probably-not"><input id="probably-not" type="radio" name="recommend" value="probably-not" class="inline" /> Probably Not</label>
+    <label for="definitely-not"><input id="definitely-not" type="radio" name="recommend" value="definitely-not" class="inline" /> Definitely Not</label>
+
+    <label for="suggestion"> Suggestions for improving the community’s environmental practices.
+          <textarea id="suggestion" name="suggestion" rows="3" cols="30" placeholder=" I help by..."></textarea></label>
+    <input type="submit" value="Submit" id="submit" />
+    </fieldset>
+</body>
+
+</html>
