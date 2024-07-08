@@ -1,6 +1,6 @@
 # Community-Environmental-Awareness-Survey-Form
 First project using HTML &amp; CSS.
 
-click here for preview ----> [ https://htmlpreview.github.io/?https://github.com/lacson-ryl/Community-Environmental-Awareness-Survey-Form/blob/main/surveyFormIndex.html ]
+click here for preview ----> [ https://codepen.io/lacson-ryl/full/QWXWpBK ]
 
 Date Finished: Oct. 2023.
